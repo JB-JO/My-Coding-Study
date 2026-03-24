@@ -1,0 +1,61 @@
+#include "MyString.h"
+#include <iostream>
+
+CMyString::CMyString()
+	: m_pszData(NULL)
+	, m_nLength(0)
+{
+}
+
+CMyString::~CMyString()
+{
+	//객체가 소멸하기 전에 메모리를 해제한다.
+	Release();
+}
+int CMyString::SetString(const char* pszParam)
+{
+	//객체가 소멸하기 전에 메모리를 해제한다.
+	//아래의 Release()메소드 호출을 가장 먼저 한거 자체가 재호출을 대비하는 것!
+	Release();
+
+	//NULL을 인수로 함수를 호출했다는 것은 메모리를 해제하고 NULL로 초기화하는 것으로 볼 수 있다.
+	//NULL을 인수로 함수를 호출했다는 것은 인수가 존재하지 않는 것이므로 메모리가 필요하지 않다는 의미이다.
+	if (pszParam == NULL)
+		return 0;
+
+	//길이가 0인 문자열도 초기화로 인식하고 처리한다.
+	//길이가 0인 문자열 또한 NULL초 초기화하는 것으로 볼 수 있으므로 아래의 코드를 작성해야한다.
+	int nLength = strlen(pszParam);
+
+	if (nLength == 0)
+		return 0;
+
+	//문자열의 끝인 NULL 문자를 고려해 메모리를 할당한다.
+	//당연히 문자열을 저장해야하는 메모리이니까 new로 동적할당시 배열로 할당해주어야한다.
+	m_pszData = new char[nLength + 1];
+
+	//새로 할당한 메모리에 문자열을 저장한다.
+	//strcpy와 하는 동작은 동일하지만 두번째 인자로 버퍼크기를 명시해서 조금 더 안전하게 사용가능함. 
+	//현재 두번째 인자로 들어가있는 sizeof(char)*(nLength +1)은 1 * (nLength + 1) 즉 그냥 nLength + 1 과 동일함.
+	strcpy_s(m_pszData, sizeof(char) * (nLength + 1), pszParam);
+	m_nLength = nLength;
+
+
+	return nLength;
+}
+
+const char* CMyString::GetString() const
+{
+	// TODO: 여기에 구현 코드 추가.
+	return m_pszData;
+}
+
+void CMyString::Release()
+{
+	// 그냥 반복문없이 바로 delete[] m_pszData;로 적어도 문제는 없지만 NULL값을 확인하는 과정을 넣어 조금더 안전하게 해제하기 위함.
+	if (m_pszData != NULL)
+		delete[] m_pszData;
+
+	m_pszData = NULL;
+	m_nLength = 0;
+}

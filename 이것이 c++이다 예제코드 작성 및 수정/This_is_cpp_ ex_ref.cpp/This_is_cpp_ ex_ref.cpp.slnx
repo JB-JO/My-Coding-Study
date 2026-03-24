@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../ref_ex__2.cpp/ref_ex__2.cpp.vcxproj" />
+  <Project Path="This_is_cpp_ ex_ref.cpp.vcxproj" />
+</Solution>

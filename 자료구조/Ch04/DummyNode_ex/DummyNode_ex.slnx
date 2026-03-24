@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DummyNode_ex.vcxproj" Id="3ff883f8-d2c0-4e25-91ef-abf94f5854b0" />
+</Solution>
