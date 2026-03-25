@@ -12,6 +12,14 @@ CMyString::~CMyString()
 	//객체가 소멸하기 전에 메모리를 해제한다.
 	Release();
 }
+
+CMyString::CMyString(const CMyString& rhs)
+	:m_pszData(NULL)
+	,m_nLength(0)
+{
+	this->SetString(rhs.GetString());
+}
+
 int CMyString::SetString(const char* pszParam)
 {
 	//객체가 소멸하기 전에 메모리를 해제한다.
@@ -52,10 +60,19 @@ const char* CMyString::GetString() const
 
 void CMyString::Release()
 {
-	// 그냥 반복문없이 바로 delete[] m_pszData;로 적어도 문제는 없지만 NULL값을 확인하는 과정을 넣어 조금더 안전하게 해제하기 위함.
+	// 그냥 조건문없이 바로 delete[] m_pszData;로 적어도 문제는 없지만 NULL값을 확인하는 과정을 넣어 조금더 안전하게 해제하기 위함.
 	if (m_pszData != NULL)
 		delete[] m_pszData;
 
 	m_pszData = NULL;
 	m_nLength = 0;
+}
+
+CMyString& CMyString::operator=(const CMyString& rhs)
+{
+	//자기 자신에 대한 대입이면 아무것도 하지 않는다.
+	if (this != &rhs)
+		this->SetString(rhs.GetString());
+
+	return *this;
 }
