@@ -1,0 +1,37 @@
+﻿#include <iostream>
+using namespace std;
+
+class CTestData
+{
+public:
+    // 매개변수가 하나뿐인 생성자는 형변환이 가능하다! // int 자료형에 대하여 (CTestData(int))를 제공하기 때문에 가능하다!
+    CTestData(int nParam) : m_nData(nParam)
+    {
+        cout << "CTestData(int)" << endl;
+    }
+
+    CTestData(const CTestData& rhs) :m_nData(rhs.m_nData)
+    {
+        cout << "CTestData(const CTestData &)" << endl;
+    }
+
+    int GetData() const { return m_nData; }
+    void SetData(int nParam) { m_nData = nParam; }
+
+private:
+    int m_nData = 0;
+};
+
+// 매개변수가 클래스 형식이며 변환 생성이 가능하다.
+void TestFunc(CTestData param) // 
+{
+    cout << "TestFunc(): " << param.GetData() << endl;
+}
+
+int main()
+{
+    TestFunc(5); // int자료형에서 CTestData 형식으로 변환될 수 있다. // 즉, 지금 이 33번 코드는 현재 TestFunc 함수의 매개변수인 param이 param(5)의 형태로 생성되게 된다.
+
+    return 0;
+}
+

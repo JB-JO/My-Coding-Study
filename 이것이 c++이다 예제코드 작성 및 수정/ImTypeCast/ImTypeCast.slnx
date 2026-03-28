@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ImTypeCast/ImTypeCast.vcxproj" Id="18c7946d-6a05-4820-b8dc-ec3245351cc5" />
+</Solution>
