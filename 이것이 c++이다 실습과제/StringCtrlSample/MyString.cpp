@@ -13,6 +13,13 @@ CMyString::~CMyString()
 	Release();
 }
 
+CMyString::CMyString(const char* pszParam)
+	: m_pszData(NULL)
+	, m_nLength(0)
+{
+	SetString(pszParam);
+}
+
 CMyString::CMyString(const CMyString& rhs)
 	:m_pszData(NULL)
 	,m_nLength(0)
@@ -76,3 +83,4 @@ CMyString& CMyString::operator=(const CMyString& rhs)
 
 	return *this;
 }
+

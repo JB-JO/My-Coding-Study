@@ -4,25 +4,18 @@
 #include <iostream>
 using namespace std;
 
-void TestFunc(const CMyString& param)
+void TestFunc(const CMyString& strParam)
 {
-	cout << param.GetString() << endl;
+	cout << strParam << endl;
 }
 
 int main()
 {
-	CMyString strData, strTest;
-	strData.SetString("Hello");
-	strTest.SetString("World");
+	CMyString strData("Hello");
 
-	CMyString strNewData(strData);
-	cout << strNewData.GetString() << endl;
+	::TestFunc(strData);
+	::TestFunc(CMyString("World"));
 
-	strNewData = strTest;
-	cout << strNewData.GetString() << endl;
-
-
-	TestFunc(strData);
 
 	return 0;
 }

@@ -7,6 +7,10 @@ public:
 
 	~CMyString();
 
+	//변환 생성자 explicit 예약어를 적용하여 묵시적 변환을 막는다.(임시 객체 생성 불가)
+	explicit CMyString(const char* pszParam);
+
+	//복사 생성자
 	CMyString(const CMyString& rhs);
 
 private:
@@ -26,5 +30,10 @@ public:
 	void Release();
 
 	CMyString& operator=(const CMyString& rhs);
+
+	operator char* () const // char*로의 형변환 연산자.
+	{
+		return m_pszData;
+	}
 };
 

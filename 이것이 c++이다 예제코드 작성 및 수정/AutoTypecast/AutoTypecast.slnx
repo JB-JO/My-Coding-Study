@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="AutoTypecast/AutoTypecast.vcxproj" Id="b91ef21a-4f23-4c3d-831f-6928120ed18e" />
+</Solution>
