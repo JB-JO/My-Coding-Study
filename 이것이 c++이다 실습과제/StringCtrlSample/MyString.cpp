@@ -1,5 +1,6 @@
 #include "MyString.h"
 #include <iostream>
+using namespace std;
 
 CMyString::CMyString()
 	: m_pszData(NULL)
@@ -25,6 +26,21 @@ CMyString::CMyString(const CMyString& rhs)
 	,m_nLength(0)
 {
 	this->SetString(rhs.GetString());
+}
+
+CMyString::CMyString(CMyString&& rhs)
+	: m_pszData(NULL)
+	, m_nLength(0)
+{
+	cout << "CMyString 이동 생성자 호출" << endl;
+
+	// 얕은 복사를 수행해도 상관없다 why? 원본은 어짜피 곧 사라진다.
+	m_pszData = rhs.m_pszData;
+	m_nLength = rhs.m_nLength;
+
+	// 원본 임시 객체의 멤버들은 초기화한다. 절대로 해제하면 안된다!
+	rhs.m_pszData = NULL;
+	rhs.m_nLength = 0;
 }
 
 int CMyString::SetString(const char* pszParam)
