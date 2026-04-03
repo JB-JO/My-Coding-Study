@@ -21,6 +21,7 @@ private:
 
 	// 저장된 문자열의 길이
 	int m_nLength;
+
 public:
 	int SetString(const char* pszParam);
 
@@ -37,5 +38,12 @@ public:
 	{
 		return m_pszData;
 	}
+
+	int GetLength() const;
+
+	int Append(const char* pszParam);
+
+	CMyString operator+(const CMyString& rhs);
+	CMyString& operator+=(const CMyString& rhs);
 };
 

@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="05_StringCtrlSample.cpp" />
     <ClCompile Include="MyString.cpp" />
-    <ClCompile Include="StringCtrlSample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyString.h" />
