@@ -18,11 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListBaseQueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ListBaseQueue.cpp" />
+    <ClCompile Include="ListBaseQueueCtrl.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a2f7206a-b762-4df1-bf63-b3f5163c4600}</ProjectGuid>
-    <RootNamespace>CircularQueue</RootNamespace>
+    <ProjectGuid>{eb755214-7385-4434-a19d-cbe10e636dbc}</ProjectGuid>
+    <RootNamespace>ListBaseQueuecpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,13 +133,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="CircularQueue.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CircularQueue.c" />
-    <ClCompile Include="CircularQueueMain.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

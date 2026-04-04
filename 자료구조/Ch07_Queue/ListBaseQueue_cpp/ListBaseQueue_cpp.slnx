@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CircularQueue/CircularQueue.vcxproj" Id="a2f7206a-b762-4df1-bf63-b3f5163c4600" />
+  <Project Path="ListBaseQueue_cpp/ListBaseQueue_cpp.vcxproj" />
 </Solution>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a2f7206a-b762-4df1-bf63-b3f5163c4600}</ProjectGuid>
-    <RootNamespace>CircularQueue</RootNamespace>
+    <ProjectGuid>{7f925fe6-6107-4b39-abd3-67898c6a4200}</ProjectGuid>
+    <RootNamespace>ListBaseQueue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="ListBaseQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CircularQueue.c" />
-    <ClCompile Include="CircularQueueMain.c" />
+    <ClCompile Include="ListBaseQueue.c" />
+    <ClCompile Include="ListBaseQueueMain.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
