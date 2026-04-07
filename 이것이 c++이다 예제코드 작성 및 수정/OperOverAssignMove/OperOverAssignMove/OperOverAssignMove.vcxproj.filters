@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9506.cpp">
+    <ClCompile Include="OperOverAssignMove.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="OperOverAssignMoveCtrl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OperOverAssignMove.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Deque/Deque.vcxproj" Id="c251d291-b054-48dc-b5e6-7a1a088c7f3f" />
+  <Project Path="OperOverAssignMove/OperOverAssignMove.vcxproj" />
 </Solution>

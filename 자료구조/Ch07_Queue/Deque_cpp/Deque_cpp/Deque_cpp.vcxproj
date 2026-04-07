@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9506.cpp" />
+    <ClInclude Include="Deque.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Deque.cpp" />
+    <ClCompile Include="DequeCtrl.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6c4bbfdf-3852-458d-b613-745bca2b8034}</ProjectGuid>
-    <RootNamespace>BackJoon</RootNamespace>
+    <ProjectGuid>{1de27690-3ff6-4b67-a60e-2c56f57bd1bf}</ProjectGuid>
+    <RootNamespace>Dequecpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
