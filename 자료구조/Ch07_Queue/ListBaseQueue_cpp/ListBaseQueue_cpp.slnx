@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ListBaseQueue_cpp/ListBaseQueue_cpp.vcxproj" />
+  <Project Path="ListBaseQueue_cpp/ListBaseQueue_cpp.vcxproj" Id="eb755214-7385-4434-a19d-cbe10e636dbc" />
 </Solution>
