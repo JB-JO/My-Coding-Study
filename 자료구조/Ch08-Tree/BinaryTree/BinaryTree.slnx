@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CircularQueue_cpp/CircularQueue_cpp.vcxproj" Id="ef0965b5-af66-4d23-9c04-eb65a177fd2e" />
+  <Project Path="BinaryTree/BinaryTree.vcxproj" Id="62646e02-75d9-4ed1-8a44-10dcc044e2d9" />
 </Solution>
