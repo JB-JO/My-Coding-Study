@@ -18,14 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="10871_vector.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6c4bbfdf-3852-458d-b613-745bca2b8034}</ProjectGuid>
-    <RootNamespace>BackJoon</RootNamespace>
+    <ProjectGuid>{fbc71d46-b126-4a85-8575-a13d725437dc}</ProjectGuid>
+    <RootNamespace>ExpressionTree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,6 +126,16 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryTree2.h" />
+    <ClInclude Include="ExpressionTree.h" />
+    <ClInclude Include="ListBaseStack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTree2.c" />
+    <ClCompile Include="ExpressionTree.c" />
+    <ClCompile Include="ListBaseStack.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

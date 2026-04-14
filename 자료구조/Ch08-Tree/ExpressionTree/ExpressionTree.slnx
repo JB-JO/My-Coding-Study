@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ExpressionTree/ExpressionTree.vcxproj" Id="fbc71d46-b126-4a85-8575-a13d725437dc" />
+</Solution>
