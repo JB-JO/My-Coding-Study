@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClCompile Include="BinaryTree2.c" />
     <ClCompile Include="ExpressionTree.c" />
+    <ClCompile Include="ExpressionTreeMain.c" />
     <ClCompile Include="ListBaseStack.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -35,5 +35,8 @@
     <ClCompile Include="ExpressionTree.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ExpressionTreeMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

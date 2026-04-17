@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <malloc.h>
 #include "ListBaseStack.h"
 
@@ -18,9 +18,10 @@ int SIsEmpty(Stack* pstack)
 void SPush(Stack* pstack, Data data)
 {
 	Node* newNode = (Node*)malloc(sizeof(Node));
+
 	newNode->data = data;
-	
 	newNode->next = pstack->head;
+	
 	pstack->head = newNode;
 }
 

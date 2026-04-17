@@ -45,5 +45,13 @@ public:
 
 	CMyString operator+(const CMyString& rhs);
 	CMyString& operator+=(const CMyString& rhs);
+
+	char operator[](char cIndx) const;
+
+	char& operator[](char cIndx);
+
+	int operator==(const CMyString& rhs);
+
+	int operator!=(const CMyString& rhs);
 };
 

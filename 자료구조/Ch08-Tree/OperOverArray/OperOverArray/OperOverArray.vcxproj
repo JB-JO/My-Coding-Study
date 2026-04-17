@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6348d546-ab86-4d20-bc83-069ec00decca}</ProjectGuid>
-    <RootNamespace>StringCtrlSample</RootNamespace>
+    <ProjectGuid>{47d4f99b-ef0c-4263-b927-7d6f41136005}</ProjectGuid>
+    <RootNamespace>OperOverArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="08_StringCtrlSample.cpp" />
-    <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="OperOverArray.cpp" />
+    <ClCompile Include="OperOverArrayCtrl.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyString.h" />
+    <ClInclude Include="OperOverArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
