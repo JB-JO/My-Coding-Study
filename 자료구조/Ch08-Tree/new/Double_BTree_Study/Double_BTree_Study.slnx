@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Double_BTree_Study/Double_BTree_Study.vcxproj" Id="37f26c99-5363-497f-8e66-6f2bfb3b9b03" />
+</Solution>

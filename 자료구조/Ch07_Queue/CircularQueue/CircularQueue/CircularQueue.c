@@ -24,7 +24,7 @@ int NextPosIdx(int pos)
 		return pos + 1;
 }
 
-void EnQueue(Queue* pq, Data data)
+void Enqueue(Queue* pq, Data data)
 {
 	if (NextPosIdx(pq->rear) == pq->front)
 	{
@@ -36,7 +36,7 @@ void EnQueue(Queue* pq, Data data)
 	pq->queArr[pq->rear] = data;
 }
 
-Data DeQueue(Queue* pq)
+Data Dequeue(Queue* pq)
 {
 	if (QIsEmpty)
 	{

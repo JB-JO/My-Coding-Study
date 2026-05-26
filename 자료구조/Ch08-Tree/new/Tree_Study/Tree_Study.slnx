@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Tree_Study/Tree_Study.vcxproj" Id="a33a4bf5-20c9-4be0-ad43-b7b868f8fafb" />
+</Solution>

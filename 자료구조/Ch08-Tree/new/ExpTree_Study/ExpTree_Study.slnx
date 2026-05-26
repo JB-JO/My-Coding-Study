@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ExpTree_Study/ExpTree_Study.vcxproj" Id="6ea953ed-e419-4e3c-beb8-4019a06305cb" />
+</Solution>

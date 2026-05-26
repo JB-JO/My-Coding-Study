@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="StackBaseEvaluator/StackBaseEvaluator.vcxproj" Id="d5206a33-e7bb-457e-9a8e-49d49e846360" />
+</Solution>
