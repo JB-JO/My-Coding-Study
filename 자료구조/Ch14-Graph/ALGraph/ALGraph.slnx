@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ALGraph/ALGraph.vcxproj" Id="0181dee6-e929-4ee5-8aeb-590113c2798e" />
+</Solution>

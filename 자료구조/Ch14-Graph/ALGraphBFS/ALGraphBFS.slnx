@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ALGraphBFS/ALGraphBFS.vcxproj" Id="84cf2a56-f74f-47b8-b315-8e40c89ee66a" />
+</Solution>
