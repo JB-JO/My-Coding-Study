@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Heap/Heap.vcxproj" Id="fc219b68-62af-43c7-a9b6-9cbba592f39a" />
+  <Project Path="RadixSort/RadixSort.vcxproj" Id="8a6a88f8-c10f-4159-9eee-879e740d663f" />
 </Solution>

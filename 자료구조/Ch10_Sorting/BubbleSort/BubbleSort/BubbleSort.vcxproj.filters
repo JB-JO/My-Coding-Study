@@ -15,21 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyString.cpp">
+    <ClCompile Include="BubbleSort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="08_StringCtrlSample.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MyStringEx.cpp">
+    <ClCompile Include="BubbleSortMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyString.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="MyStringEx.h">
+    <ClInclude Include="BubbleSort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

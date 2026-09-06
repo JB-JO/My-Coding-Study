@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Heap/Heap.vcxproj" Id="fc219b68-62af-43c7-a9b6-9cbba592f39a" />
+  <Project Path="MergeSort/MergeSort.vcxproj" Id="5f14ee52-9fdd-4410-9447-41bf5ac17973" />
 </Solution>

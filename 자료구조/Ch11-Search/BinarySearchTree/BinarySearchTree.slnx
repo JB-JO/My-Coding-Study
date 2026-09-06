@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Heap/Heap.vcxproj" Id="fc219b68-62af-43c7-a9b6-9cbba592f39a" />
+  <Project Path="BinarySearchTree/BinarySearchTree.vcxproj" Id="f0597022-2a4c-4aa4-8f49-d7d114e498c4" />
 </Solution>
